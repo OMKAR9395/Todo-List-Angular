@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/Todo-List-Angular',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },

@@ -1,7 +1,7 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>TodoList</title>
-  <base href="/Todo-List-Angular/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-5INURTSO.css"><style ng-app-id="ng">.todo-container[_ngcontent-ng-c213711874]{max-width:400px;margin:20px auto;padding:15px;border:1px solid #ddd;border-radius:5px;text-align:center}h1[_ngcontent-ng-c213711874]{font-size:20px;color:#333}input[_ngcontent-ng-c213711874]{width:70%;padding:8px;margin-bottom:10px;border:1px solid #ccc;border-radius:5px;font-size:14px}button[_ngcontent-ng-c213711874]{padding:8px 12px;margin-top:5px;border:none;border-radius:5px;cursor:pointer;font-size:14px}button[_ngcontent-ng-c213711874]:hover{opacity:.8}button.add[_ngcontent-ng-c213711874]{background-color:#28a745;color:#fff}button.delete[_ngcontent-ng-c213711874]{background-color:#dc3545;color:#fff}ul[_ngcontent-ng-c213711874]{list-style:none;padding:0}li[_ngcontent-ng-c213711874]{background:#f9f9f9;padding:8px;margin:5px 0;border-radius:5px;display:flex;justify-content:space-between;align-items:center}</style></head>
