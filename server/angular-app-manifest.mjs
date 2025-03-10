@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://OMKAR9395.github.io/Todo-List-Angular/',
+  baseHref: '/Todo-List-Angular/',
   locale: undefined,
   routes: [
   {
@@ -12,9 +12,9 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 537, hash: '73c2364ee1ef3754a120a3bfdabe02d2a670791b8bfd8964fb310d0f7f0a421b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1050, hash: '5c54f76a825249c6ee2667e5aa4cc879c27cd35ea4d017d44f754bd80bafabce', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 2648, hash: '261ad16c8c401e164d8da3e42bcbe4fa43bb0c36410d2f838c62f0d3043045a1', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 510, hash: '5d8d361caa94a1c6559a59bcf4fa8ef09219b548dfd060d376f115e7edb58eea', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1023, hash: '41dbda90632d26447ae23d8fb28f210413175a94d93d0c11384ac6573059cb28', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 2621, hash: 'e1af8ab0a358a967a0d9e2779606d887a6eb35f70fde532efcaa6994c48c8eda', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
